@@ -45,10 +45,9 @@ internal class Program
         if (invalidSequences.Count > 0)
         {
 
-            //Build a tree to traverse and check if the current sequence is valid?
+            //For each invalid sequence, check the subsequences that could be generated when removing an item.
             foreach (var sequence in invalidSequences)
             {
-
                 var subSequences = new List<List<int>>();
                 for (int i = 0; i < sequence.Length; i++)
                 {
