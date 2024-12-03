@@ -7,7 +7,7 @@
             var data = new List<string>();
             if (fileName != null)
             {
-                var basePath = @"C:\Users\MistFir3\source\repos\2024-advent-of-code\Day1\FileInput\DataImport\";
+                var basePath = @"C:\Users\MistFir3\source\repos\2024-advent-of-code\advent-of-code\FileInput\DataImport\";
                 using (StreamReader sr = new StreamReader(basePath + fileName))
                 {
                     do
